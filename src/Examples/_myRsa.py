@@ -11,8 +11,7 @@ class myRsa:
 
 	#compute max bits of every encrypted char
 	def __calcMaxBit__(self):
-		maxN = max(self.pPrimes)*max(self.qPrimes)
-		self.pckSize = int(math.ceil(math.ceil(math.log(maxN, 2))/8))
+		self.pckSize = int(math.ceil(math.ceil(math.log(self.n, 2))/8))
 
 	def init(self, n=None, e=None, d=None):
 		if n == None or e==None or d==None:
