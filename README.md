@@ -14,6 +14,9 @@ A solid example of Yowsup's usage is [Wazapp](https://github.com/tgalal/wazapp).
 
 Yowsup also comes with a cross platform command-line frontend called [yowsup-cli](https://github.com/tgalal/yowsup/wiki/yowsup-cli). yowsup-cli allows you to jump into connecting and using Whatsapp service directly from command line.
 
+## Encrypted communication
+To encrypt your communication with RSA you have to use yousup-cli in interactive mode, and both users have to use "/crypt" command to start.
+
 ### Get started with:
  * **[Yowsup Features](https://github.com/tgalal/yowsup/wiki/About-and-Features)**
  * **[yowsup-cli](https://github.com/tgalal/yowsup/wiki/yowsup-cli)**
